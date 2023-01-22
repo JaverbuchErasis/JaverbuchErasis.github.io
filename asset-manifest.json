@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f82ea2d.css",
-    "main.js": "/static/js/main.398be0b7.js",
-    "static/js/787.3becf67e.chunk.js": "/static/js/787.3becf67e.chunk.js",
+    "main.css": "/static/css/main.4d2d13ed.css",
+    "main.js": "/static/js/main.ba746676.js",
+    "static/js/787.b02362e0.chunk.js": "/static/js/787.b02362e0.chunk.js",
     "static/media/workerUnderground.jpg": "/static/media/workerUnderground.877d83c52467f092ede7.jpg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/404.jpg": "/static/media/404.fde8daf14423ce4cce67.jpg",
     "static/media/designSchematic.jpg": "/static/media/designSchematic.7f567bf1e871f9cdfe7b.jpg",
     "static/media/workerCareer.jpg": "/static/media/workerCareer.67531c5b81b074a43c7f.jpg",
     "static/media/downtownColoradoSprings.jpg": "/static/media/downtownColoradoSprings.241465cd3b201da31b1b.jpg",
@@ -19,6 +20,7 @@
     "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "service-worker.js": "/service-worker.js",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
     "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
@@ -26,12 +28,12 @@
     "index.html": "/index.html",
     "static/media/arrow_left.svg": "/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.6f82ea2d.css.map": "/static/css/main.6f82ea2d.css.map",
-    "main.398be0b7.js.map": "/static/js/main.398be0b7.js.map",
-    "787.3becf67e.chunk.js.map": "/static/js/787.3becf67e.chunk.js.map"
+    "main.4d2d13ed.css.map": "/static/css/main.4d2d13ed.css.map",
+    "main.ba746676.js.map": "/static/js/main.ba746676.js.map",
+    "787.b02362e0.chunk.js.map": "/static/js/787.b02362e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f82ea2d.css",
-    "static/js/main.398be0b7.js"
+    "static/css/main.4d2d13ed.css",
+    "static/js/main.ba746676.js"
   ]
 }
