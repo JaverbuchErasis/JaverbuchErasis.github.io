@@ -1,8 +1,11 @@
-import React from "react";
+import { React, useEffect  } from 'react'
 import AOS from 'aos';
 
 const About = (props) => {
     AOS.init();
+    useEffect(() => {
+        document.title = 'About Us - Paonia Inc.';
+    }, []);
     
     const mobileView = (
         <div>

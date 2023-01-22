@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect  } from 'react'
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
@@ -7,6 +7,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const Contact = (props) => {
+    useEffect(() => {
+        document.title = 'Contact - Paonia Inc.';
+    }, []);
+
     const mobileView = (
         <div className="row" style={{
             background: "url(./contactFormImage2.jpg)",

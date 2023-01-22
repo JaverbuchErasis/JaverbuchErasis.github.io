@@ -10,6 +10,10 @@ import { FileUploader } from "react-drag-drop-files";
 import jobList from "../jobs.json";
 
 const Career = (props) => {
+    useEffect(() => {
+        document.title = 'Career - Paonia Inc.';
+    }, []);
+
     const jobOpenings = (jobList.length);
     const fileTypes = ["PDF"];
     const [file, setFile] = useState(null);

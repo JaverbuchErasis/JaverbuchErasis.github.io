@@ -14,7 +14,7 @@ import ErrorPage from './pages/404';
 
 function App() {
   useEffect(() => {
-    document.title = 'Home - Paoia Inc.';
+    document.title = 'Home - Paonia Inc.';
   }, []);
 
   const isTablet = useMediaQuery({query: '(max-width: 768px)'})
