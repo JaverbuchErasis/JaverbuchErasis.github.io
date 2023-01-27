@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBolt, faBuilding, faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
+import { browserName } from "react-device-detect";
+
+const avifSup = browserName === "Chrome" || browserName === "Firefox" || browserName === "Safari" ? true : false
 
 const UpperBody = (props) => {
     AOS.init();
@@ -83,7 +86,7 @@ const LowerBody = (props) => {
 
     return (
         <div data-aos="fade-in" className='row lowerBodyContainer'>
-            <div className='col-sm-6 lowerBodyContainerLeft'>
+            <div className={avifSup ? 'col-sm-6 lowerBodyContainerLeftHQ' : 'col-sm-6 lowerBodyContainerLeftLQ'}>
                 <div className='lowerBodyContainerLeftText'><h3 className='lowerBodyContainerLeftTextHead'>Safety and Culture</h3><br></br>
                     <div>
                         <div>
@@ -101,7 +104,7 @@ const LowerBody = (props) => {
                     <Button variant="danger"><Link to='/about'>Learn More</Link></Button>
                 </div>
             </div>
-            <div className='col-sm-6 lowerBodyContainerRight' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+            <div className={avifSup ? 'col-sm-6 lowerBodyContainerRightHQ' : 'col-sm-6 lowerBodyContainerRightLQ'} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                 <div className={isHovering ? "lowerBodyContainerRightTextHide" : "lowerBodyContainerRightTextBase"}>
                     <h3>Careers</h3>
                     <br></br>

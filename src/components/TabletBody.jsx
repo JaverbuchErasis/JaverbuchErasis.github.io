@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBolt, faBuilding, faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
+import { browserName } from "react-device-detect";
+
+const avifSup = browserName === "Chrome" || browserName === "Firefox" || browserName === "Safari" ? true : false
 
 const TabletUpperBody = (props) => {
     AOS.init();
@@ -73,7 +76,7 @@ const TabletLowerBody = (props) => {
 
     return (
         <div data-aos="fade-in" className='row lowerBodyContainer'>
-            <div className='lowerTabletBodyContainerLeft'>
+            <div className={avifSup ? 'lowerTabletBodyContainerLeftHQ' : 'lowerTabletBodyContainerLeftLQ'}>
                 <div className='lowerBodyContainerLeftText'><h3 className='lowerBodyContainerLeftTextHead'>Safety and Culture</h3><br></br>
                     <div>
                         <div>
@@ -91,7 +94,7 @@ const TabletLowerBody = (props) => {
                     <Button variant="danger"><Link to='/about'>Learn More</Link></Button>
                 </div>
             </div>
-            <div className='lowerTabletBodyContainerRight'>
+            <div className={avifSup ? 'lowerTabletBodyContainerRightHQ' : 'lowerTabletBodyContainerRightLQ'}>
                 <div>
                     <h1>Careers</h1>
                     <Button variant="danger"><Link to='/careers'>Job Openings</Link></Button>

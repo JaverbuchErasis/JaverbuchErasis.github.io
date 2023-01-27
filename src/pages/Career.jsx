@@ -8,12 +8,15 @@ import { PDFDocument } from 'pdf-lib';
 import downloadjs from 'downloadjs';
 import { FileUploader } from "react-drag-drop-files";
 import jobList from "../jobs.json";
+import { browserName } from "react-device-detect";
 
 const Career = (props) => {
     useEffect(() => {
         document.title = 'Career - Paonia Inc.';
     }, []);
 
+    const avifSup = browserName === "Chrome" || browserName === "Firefox" || browserName === "Safari" ? true : false
+    
     const jobOpenings = (jobList.length);
     const fileTypes = ["PDF"];
     const [file, setFile] = useState(null);
@@ -54,7 +57,7 @@ const Career = (props) => {
 
     return (
         <div>
-            <div className="careerHeaderImage">
+            <div className={avifSup ? "careerHeaderImageHQ" : "careerHeaderImageLQ"}>
                 <h1> {props.viewport === "Mobile" ?
                     <span style={{
                         color: "white",

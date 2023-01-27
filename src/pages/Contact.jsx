@@ -114,13 +114,16 @@ const Contact = (props) => {
                 </Container>
             </div>
             <div className='col-sm-6'>
-                <img src="/contactFormImage2.jpg" alt="Contact Form" style={{
-                    marginTop: "2em",
-                    marginLeft: "-3em",
-                    width: "105%",
-                    height: "auto",
-                    float: "left"
-                }}/>
+                <picture>
+                    <source srcSet="/contactFormImage2.avif" type="image/avif"/>
+                    <img src="/contactFormImage2.jpg" alt="Contact Us" type="image/jpg" style={{
+                        marginTop: "5em",
+                        marginLeft: "-3em",
+                        width: "105%",
+                        height: "auto",
+                        float: "left"
+                    }}/>
+                </picture>
             </div>
         </div>
     )

@@ -3,6 +3,9 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import { ServicesMV } from './MobileViewServices';
 import AOS from 'aos';
+import { browserName } from "react-device-detect";
+
+const avifSup = browserName === "Chrome" || browserName === "Firefox" || browserName === "Safari" ? true : false
 
 const MobileUpperBody = (props) => {
     AOS.init();
@@ -51,7 +54,7 @@ const MobileLowerBody = (props) => {
 
     return (
         <div data-aos="fade-in" className='row lowerBodyContainer'>
-            <div className='lowerTabletBodyContainerLeft'>
+            <div className={avifSup ? 'lowerTabletBodyContainerLeftHQ' : 'lowerTabletBodyContainerLeftLQ'}>
                 <div className='lowerBodyContainerLeftText'><h3 className='lowerBodyContainerLeftTextHead'>Safety and Culture</h3><br></br>
                     <div>
                         <div>
@@ -69,7 +72,7 @@ const MobileLowerBody = (props) => {
                     <Button variant="danger"><Link to='/about'>Learn More</Link></Button>
                 </div>
             </div>
-            <div className='lowerTabletBodyContainerRight'>
+            <div className={avifSup ? 'lowerTabletBodyContainerRightHQ' : 'lowerTabletBodyContainerRightLQ'}>
                 <div>
                     <h1>Careers</h1>
                     <Button variant="danger"><Link to='/careers'>Job Openings</Link></Button>

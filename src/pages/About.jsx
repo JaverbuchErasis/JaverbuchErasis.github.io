@@ -1,16 +1,19 @@
 import { React, useEffect  } from 'react'
 import AOS from 'aos';
+import { browserName } from "react-device-detect";
 
 const About = (props) => {
     AOS.init();
     useEffect(() => {
         document.title = 'About Us - Paonia Inc.';
     }, []);
+
+    const avifSup = browserName === "Chrome" || browserName === "Firefox" || browserName === "Safari" ? true : false
     
     const mobileView = (
         <div>
             <div data-aos="fade-in" className="row" style={{
-                background: "url(./carousel1.jpg)",
+                background: avifSup ? "url(./aboutImg1.avif)" : "url(./aboutImg1.jpg)",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat"
@@ -28,7 +31,7 @@ const About = (props) => {
                 </div>
             </div>
             <div data-aos="fade-in" className="row" style={{
-                background: "url(./carousel2.jpg)",
+                background: avifSup ? "url(./aboutImg2.avif)" : "url(./aboutImg2.jpg)",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat"
@@ -40,7 +43,7 @@ const About = (props) => {
                 </div>
             </div>
             <div data-aos="fade-in" className="row" style={{
-                background: "url(./carousel3.jpg)",
+                background: avifSup ? "url(./aboutImg3.avif)" : "url(./aboutImg3.jpg)",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat"
@@ -65,12 +68,18 @@ const About = (props) => {
                     </div>
                 </div>
                 <div className="aboutUsRightSide">
-                    <img className="aboutUsDescriptorImage" src="./carousel1.jpg" alt="aboutus1"/>
+                <picture>
+                    <source srcSet="./aboutImg1.avif" type="image/avif"/>
+                    <img className="aboutUsDescriptorImage" src="./aboutImg1.jpg" alt="About Us 1" type="image/jpg"/>
+                </picture>
                 </div>
             </div>
             <div className="row">
                 <div className="aboutUsLeftSide">
-                    <img className="aboutUsDescriptorImage" src="./carousel2.jpg" alt="aboutus2"/>
+                    <picture>
+                        <source srcSet="./aboutImg2.avif" type="image/avif"/>
+                        <img className="aboutUsDescriptorImage" src="./aboutImg2.jpg" alt="About Us 2" type="image/jpg"/>
+                    </picture>
                 </div>
                 <div className="aboutUsRightSide">
                     <div className="aboutUsDescriptorTextInv">
@@ -89,7 +98,10 @@ const About = (props) => {
                     </div>
                 </div>
                 <div className="aboutUsRightSide">
-                    <img className="aboutUsDescriptorImage" src="./carousel3.jpg" alt="aboutus3"/>
+                    <picture>
+                        <source srcSet="./aboutImg3.avif" type="image/avif"/>
+                        <img className="aboutUsDescriptorImage" src="./aboutImg3.jpg" alt="About Us 3" type="image/jpg"/>
+                    </picture>
                 </div>
             </div>
         </div>
@@ -97,7 +109,7 @@ const About = (props) => {
 
     return (
         <div>
-            <div className="aboutUsCoverImage">
+            <div className={avifSup ? "aboutUsCoverImageHQ" : "aboutUsCoverImageLQ"}>
                 <h1 style={{
                     paddingLeft: "2em",
                     paddingBottom: "3em",

@@ -13,12 +13,10 @@ function ControlledCarousel() {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} className='mainCarousel'>
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    // src="https://www.sleepzone.ie/uploads/images/PanelImages800x400/TheBurren/General/sleepzone_hostels_burren_800x400_14.jpg"
-                    src="/carousel1.jpg"
-                    alt="First slide"
-                />
+                <picture>
+                    <source className="d-block w-100" srcSet="/coverImage1.avif" type="image/avif"/>
+                    <img className="d-block w-100" src="/carousel1.jpg" alt="First slide" type="image/jpg"/>
+                </picture>
                 <Carousel.Caption>
                     <h3>Best Underground Construction Contractor in your Area</h3>
                     <p>
@@ -28,12 +26,10 @@ function ControlledCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    // src="https://cdn.wallpapersafari.com/24/37/K4wNkq.jpg"
-                    src="/carousel2.jpg"
-                    alt="Second slide"
-                />
+                <picture>
+                    <source className="d-block w-100" srcSet="/coverImage2.avif" type="image/avif"/>
+                    <img className="d-block w-100" src="/carousel2.jpg" alt="Second slide" type="image/jpg"/>
+                </picture>
                 <Carousel.Caption>
                     <h3>Interested in Joining our Team</h3>
                     <p>
@@ -43,12 +39,10 @@ function ControlledCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    // src="https://www.blackdesertfoundry.com/wp-content/uploads/2020/07/processing-800x400.png"
-                    src="/carousel3.jpg"
-                    alt="Third slide"
-                />
+                <picture>
+                    <source className="d-block w-100" srcSet="/coverImage3.avif" type="image/avif"/>
+                    <img className="d-block w-100" src="/carousel3.jpg" alt="Third slide" type="image/jpg"/>
+                </picture>
                 <Carousel.Caption>
                     <h3>Top Safety Focused Culture</h3>
                     <p>
@@ -71,12 +65,10 @@ function NonDesktopControlledCarousel() {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect} className='nonDesktopCarousel'>
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    // src="https://www.sleepzone.ie/uploads/images/PanelImages800x400/TheBurren/General/sleepzone_hostels_burren_800x400_14.jpg"
-                    src="/carousel1.jpg"
-                    alt="First slide"
-                />
+                <picture>
+                    <source className="d-block w-100" srcSet="/coverImage1.avif" type="image/avif"/>
+                    <img className="d-block w-100" src="/carousel1.jpg" alt="First slide" type="image/jpg"/>
+                </picture>
                 <Carousel.Caption>
                     <h3>Best Underground Construction Contractor in your Area</h3>
                     <p>
@@ -86,12 +78,10 @@ function NonDesktopControlledCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    // src="https://cdn.wallpapersafari.com/24/37/K4wNkq.jpg"
-                    src="/carousel2.jpg"
-                    alt="Second slide"
-                />
+                <picture>
+                    <source className="d-block w-100" srcSet="/coverImage2.avif" type="image/avif"/>
+                    <img className="d-block w-100" src="/carousel2.jpg" alt="Second slide" type="image/jpg"/>
+                </picture>
                 <Carousel.Caption>
                     <h3>Interested in Joining our Team</h3>
                     <p>
@@ -101,12 +91,10 @@ function NonDesktopControlledCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    // src="https://www.blackdesertfoundry.com/wp-content/uploads/2020/07/processing-800x400.png"
-                    src="/carousel3.jpg"
-                    alt="Third slide"
-                />
+                <picture>
+                    <source className="d-block w-100" srcSet="/coverImage3.avif" type="image/avif"/>
+                    <img className="d-block w-100" src="/carousel3.jpg" alt="Third slide" type="image/jpg"/>
+                </picture>
                 <Carousel.Caption>
                     <h3>Top Safety Focused Culture</h3>
                     <p>

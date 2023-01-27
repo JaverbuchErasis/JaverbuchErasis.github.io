@@ -167,27 +167,45 @@
   overflow: hidden;
 }
 
-.lowerBodyContainerLeft {
+.lowerBodyContainerLeftHQ {
   padding: 2em;
   clip-path: polygon(0 0, 100% 0, calc(100% - 3rem) 100%, 0% 100%);
-  background-image: url(./img/workerUnderground.jpg);
+  background-image: url(./img/homeSafety.avif);
   transition: all .5s;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.lowerTabletBodyContainerLeft {
+.lowerBodyContainerLeftLQ {
   padding: 2em;
-  /* clip-path: polygon(0 0, 100% 0, calc(100% - 3rem) 100%, 0% 100%); */
-  background-image: url(./img/workerUnderground.jpg);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 3rem) 100%, 0% 100%);
+  background-image: url(./img/homeSafety.jpg);
   transition: all .5s;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.lowerBodyContainerLeft:hover {
+.lowerTabletBodyContainerLeftHQ {
+  padding: 2em;
+  background-image: url(./img/homeSafety.avif);
+  transition: all .5s;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lowerTabletBodyContainerLeftLQ {
+  padding: 2em;
+  background-image: url(./img/homeSafety.jpg);
+  transition: all .5s;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lowerBodyContainerLeftHQ:hover, .lowerBodyContainerLeftLQ:hover {
   transform: scale(1.25);
 }
 
@@ -210,19 +228,40 @@
   font-weight: bolder;
 }
 
-.lowerBodyContainerRight {
+.lowerBodyContainerRightHQ {
   margin-left: -2rem;
   clip-path: polygon(3rem 0, 100% 0, 100% 100%, 0% 100%);
-  background-image: url(./img/workerCareer.jpg);
+  background-image: url(./img/homeCareer.avif);
   transition: all 1.5s;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.lowerTabletBodyContainerRight {
+.lowerBodyContainerRightLQ {
+  margin-left: -2rem;
+  clip-path: polygon(3rem 0, 100% 0, 100% 100%, 0% 100%);
+  background-image: url(./img/homeCareer.jpg);
+  transition: all 1.5s;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lowerTabletBodyContainerRightHQ {
   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-  background-image: url(./img/workerCareer.jpg);
+  background-image: url(./img/homeCareer.avif);
+  transition: all 1.5s;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .75;
+  padding: 2em;
+}
+
+.lowerTabletBodyContainerRightLQ {
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  background-image: url(./img/homeCareer.jpg);
   transition: all 1.5s;
   background-position: center;
   background-size: cover;
@@ -273,14 +312,28 @@
   background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) center;
 }
 
-.careerHeaderImage {
+.careerHeaderImageHQ {
   padding-top: 11em;
   padding-bottom: 13em;
   width: 99%;
   background: linear-gradient(
     rgb(17, 17, 119, 0.45), 
     rgb(17, 17, 119, 0.45)
-  ), url(./img/downtownColoradoSprings.jpg);
+  ), url(./img/careerCover.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 0%, 100% 79%, 0% 100%);
+}
+
+.careerHeaderImageLQ {
+  padding-top: 11em;
+  padding-bottom: 13em;
+  width: 99%;
+  background: linear-gradient(
+    rgb(17, 17, 119, 0.45), 
+    rgb(17, 17, 119, 0.45)
+  ), url(./img/careerCover2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -342,14 +395,28 @@
   padding-left: 0 !important;
 }
 
-.aboutUsCoverImage {
+.aboutUsCoverImageHQ {
   padding-top: 7em;
   padding-bottom: 7em;
   width: 99%;
   background: linear-gradient(
     rgba(56, 114, 76, 0.45), 
     rgba(56, 114, 76, 0.45)
-  ), url(./img/constructionEquipment.jpg);
+  ), url(./img/aboutCover.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(20% 0%, 0 0, 0 43%, 0 100%, 0 100%, 50% 85%, 100% 100%, 100% 100%, 100% 57%, 100% 0, 80% 0%, 51% 0);
+}
+
+.aboutUsCoverImageLQ {
+  padding-top: 7em;
+  padding-bottom: 7em;
+  width: 99%;
+  background: linear-gradient(
+    rgba(56, 114, 76, 0.45), 
+    rgba(56, 114, 76, 0.45)
+  ), url(./img/aboutCover.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
