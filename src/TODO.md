@@ -1,7 +1,8 @@
 # TO DO List for Paonia Website (DO NOT INCLUDE WITHIN PRODUCTION BUILD)
 Project Page\
 Progressive Web App?\
-Back end application send for career page
+Back end application send for career page\
+Routing
 
 ## Identified Bugs
 Carousel Different Heights for Images\
