@@ -1,11 +1,11 @@
 # TO DO List for Paonia Website (DO NOT INCLUDE WITHIN PRODUCTION BUILD)
 Project Page\
-Verbaige (Leave as latin for demo\show-n-tell)\
 Progressive Web App?\
-** ONCE IMAGEGS HAVE BEEN CHOSEN, PURCHASE FULL FROM SHUTTERSTOCK **
 Back end application send for career page
 
 ## Identified Bugs
+Carousel Different Heights for Images\
+Carousel Non-Desktop Views Covering Images
 
 ## Testing Points of Interest
 All viewports (Mobile\Tablet\Computer)\

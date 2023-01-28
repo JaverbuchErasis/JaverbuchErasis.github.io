@@ -48,19 +48,44 @@
   background-size: cover;
 }
 
-.titleBodyContainer {
+.titleBodyContainerHQ {
   margin: 0;
-  background: url(./img/designSchematic.jpg) no-repeat center center fixed;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(./img/homeCover.avif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 10em;
+  padding: 3em;
 }
 
-.titleTabletBodyContainer {
+.titleBodyContainerLQ {
   margin: 0;
-  background: url(./img/designSchematic.jpg) no-repeat center center fixed;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(./img/homeCover.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 3em;
+}
+
+.titleTabletBodyContainerHQ {
+  margin: 0;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(./img/homeCover.avif);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,9 +93,38 @@
   padding: 2em;
 }
 
-.titleMobileBodyContainer {
+.titleTabletBodyContainerLQ {
   margin: 0;
-  background: url(./img/designSchematic.jpg) no-repeat center center fixed;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(./img/homeCover.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 2em;
+}
+
+.titleMobileBodyContainerHQ {
+  margin: 0;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(./img/homeCover.avif);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 1em;
+}
+
+.titleMobileBodyContainerLQ {
+  margin: 0;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(./img/homeCover.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -80,16 +134,19 @@
 
 .titleBodySection {
   font-weight: bold;
-  font-size: xxx-large;
+  font-size: xx-large;
+  color: white;
 }
 
 .titleTabletBodySection {
   font-weight: bold;
   font-size: x-large;
+  color: white;
 }
 
 .titleMobileBodySection {
   font-weight: bold;
+  color: white;
 }
 
 .mainCarousel .carousel-item {
@@ -360,25 +417,26 @@
 
 .aboutUsDescriptorImage {
   width: 100%;
-  height: 20em;
+  /* height: 20em; */
+  height: 100%;
 }
 
 .aboutUsDescriptorText {
   width: 100%;
-  height: 20em;
+  /* height: 20em; */
   background-color: #2d2d2d;
   color: white;
-  text-align: right;
-  padding: 3em 2em 2em 15em;
+  text-align: left;
+  padding: 3em 2em 2em 4em;
 }
 
 .aboutUsDescriptorTextInv {
   width: 100%;
-  height: 20em;
+  /* height: 20em; */
   background-color: #2d2d2d;
   color: white;
   text-align: left;
-  padding: 3em 15em 2em 2em;
+  padding: 3em 4em 2em 2em;
 }
 
 .aboutUsLeftSide {
@@ -398,7 +456,7 @@
 .aboutUsCoverImageHQ {
   padding-top: 7em;
   padding-bottom: 7em;
-  width: 99%;
+  width: 100%;
   background: linear-gradient(
     rgba(56, 114, 76, 0.45), 
     rgba(56, 114, 76, 0.45)
@@ -412,7 +470,7 @@
 .aboutUsCoverImageLQ {
   padding-top: 7em;
   padding-bottom: 7em;
-  width: 99%;
+  width: 100%;
   background: linear-gradient(
     rgba(56, 114, 76, 0.45), 
     rgba(56, 114, 76, 0.45)

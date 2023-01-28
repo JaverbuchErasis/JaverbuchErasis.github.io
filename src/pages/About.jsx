@@ -25,8 +25,23 @@ const About = (props) => {
                 }}>
                     <h1>About Us</h1>
                     <div className="aboutUsMobileText">
+                    <h1>About Us</h1>
                         <hr></hr>
-                        Lorem ipsum dolor sit amet, aeque alterum repudiare ius at, at sapientem liberavisse est. Ei illud democritum pro, vel id dictas corrumpit. Id usu idque elitr eligendi, nullam diceret reprehendunt et per, pro amet iuvaret instructior ex.
+                        At Paonia, we specialize in providing underground construction services for a wide range of projects. 
+                        Our services include the design, planning, and construction of underground infrastructure such as:
+                        <br></br>
+                        <ul>
+                            <li>Utility lines installation, repair and maintenance for electricity, gas, water, and sewage systems</li>
+                            <li>Tunnel construction for transportation, mining and civil engineering projects</li>
+                            <li>Fiber Optic, broadband, and other telecom cable projects</li>
+                            <li>Shoring, underpinning and underpinning repair of existing structures</li>
+                            <li>Site preparation, excavation, and grading</li>
+                        </ul>
+                        We have a team of highly skilled and experienced construction workers, engineers, and project managers who are experts in the field of underground construction. They use the latest technology and equipment to ensure the highest level of quality and safety on every project.
+                        <br></br><br></br>
+                        Our services are not limited to new construction, we also provide repair and maintenance services for existing underground infrastructure. We work closely with government agencies and other organizations to ensure that our projects comply with all safety and environmental regulations.
+                        <br></br><br></br>
+                        We understand that every project is unique and we pride ourselves on our ability to provide customized solutions for each of our clients. From design and planning to completion, we manage every aspect of the project to ensure that it is completed on time and within budget.
                     </div>
                 </div>
             </div>
@@ -39,7 +54,25 @@ const About = (props) => {
                 <h1>Safety</h1>
                 <div className="aboutUsMobileText">
                     <hr></hr>
-                    Lorem ipsum dolor sit amet, aeque alterum repudiare ius at, at sapientem liberavisse est. Ei illud democritum pro, vel id dictas corrumpit. Id usu idque elitr eligendi, nullam diceret reprehendunt et per, pro amet iuvaret instructior ex.
+                    <ul>
+                        <li>
+                        At our Paonia, safety is our top priority. We understand that construction can be a hazardous industry and we 
+                        take every precaution to ensure the safety of our employees and anyone who may be impacted by our work.
+                        </li><li>
+                        All of our employees undergo rigorous safety training and are required to follow strict safety protocols at all times. We 
+                        also conduct regular safety inspections and audits to identify and address any potential hazards.
+                        </li><li>
+                        Personal Protective Equipment (PPE) is mandatory on all of our job sites and we provide our workers with the necessary 
+                        equipment to keep them safe. We also have a dedicated safety officer on staff to oversee all safety aspects of the project, 
+                        and to respond to any safety concerns.
+                        </li><li>
+                        We also implement a strict drug-free workplace policy and conduct regular drug tests to ensure that all of our employees 
+                        are able to work safely at all times.
+                        </li><li>
+                        We work closely with our clients and local authorities to ensure that all safety regulations are met and exceeded. We 
+                        believe that by prioritizing safety, we can not only protect our employees, but also ensure the success of the project.
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div data-aos="fade-in" className="row" style={{
@@ -51,7 +84,26 @@ const About = (props) => {
                 <h1>Background</h1>
                 <div className="aboutUsMobileText">
                     <hr></hr>
-                    Lorem ipsum dolor sit amet, aeque alterum repudiare ius at, at sapientem liberavisse est. Ei illud democritum pro, vel id dictas corrumpit. Id usu idque elitr eligendi, nullam diceret reprehendunt et per, pro amet iuvaret instructior ex.
+                    <ul>
+                        <li>
+                        Our underground construction company has a long history of delivering high-quality and safe underground construction services. 
+                        We have been in business for several decades and have built a reputation for excellence in the industry.
+                        </li><li>
+                        We specialize in a wide range of underground construction services, including tunneling, excavation, and foundation work. Our 
+                        team of experts is highly skilled and experienced in all aspects of underground construction, and are equipped with the latest 
+                        technology and equipment to ensure that every project is completed safely and efficiently.
+                        </li><li>
+                        We have worked on a variety of projects over the years, including transportation projects such as subway systems and highways, 
+                        water and sewage projects, and many fiber and telecom projects. Our services are suitable for a variety of industries and we have experience in 
+                        both public and private sector projects.
+                        </li><li>
+                        We pride ourselves on our commitment to safety, our attention to detail, and our ability to deliver projects on time and within 
+                        budget. We work closely with our clients to understand their specific needs and tailor our services to meet those needs.
+                        </li><li>
+                        We are dedicated to providing high-quality services and to building long-lasting relationships with our clients. Trust us to handle 
+                        all of your underground construction needs.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -64,7 +116,21 @@ const About = (props) => {
                     <div className="aboutUsDescriptorText">
                         <h1>About Us</h1>
                         <hr></hr>
-                        Lorem ipsum dolor sit amet, aeque alterum repudiare ius at, at sapientem liberavisse est. Ei illud democritum pro, vel id dictas corrumpit. Id usu idque elitr eligendi, nullam diceret reprehendunt et per, pro amet iuvaret instructior ex.
+                        At Paonia, we specialize in providing underground construction services for a wide range of projects. 
+                        Our services include the design, planning, and construction of underground infrastructure such as:
+                        <br></br>
+                        <ul>
+                            <li>Utility lines installation, repair and maintenance for electricity, gas, water, and sewage systems</li>
+                            <li>Tunnel construction for transportation, mining and civil engineering projects</li>
+                            <li>Fiber Optic, broadband, and other telecom cable projects</li>
+                            <li>Shoring, underpinning and underpinning repair of existing structures</li>
+                            <li>Site preparation, excavation, and grading</li>
+                        </ul>
+                        We have a team of highly skilled and experienced construction workers, engineers, and project managers who are experts in the field of underground construction. They use the latest technology and equipment to ensure the highest level of quality and safety on every project.
+                        <br></br><br></br>
+                        Our services are not limited to new construction, we also provide repair and maintenance services for existing underground infrastructure. We work closely with government agencies and other organizations to ensure that our projects comply with all safety and environmental regulations.
+                        <br></br><br></br>
+                        We understand that every project is unique and we pride ourselves on our ability to provide customized solutions for each of our clients. From design and planning to completion, we manage every aspect of the project to ensure that it is completed on time and within budget.
                     </div>
                 </div>
                 <div className="aboutUsRightSide">
@@ -85,7 +151,25 @@ const About = (props) => {
                     <div className="aboutUsDescriptorTextInv">
                         <h1>Safety</h1>
                         <hr></hr>
-                        Lorem ipsum dolor sit amet, aeque alterum repudiare ius at, at sapientem liberavisse est. Ei illud democritum pro, vel id dictas corrumpit. Id usu idque elitr eligendi, nullam diceret reprehendunt et per, pro amet iuvaret instructior ex.
+                        <ul>
+                            <li>
+                            At our Paonia, safety is our top priority. We understand that construction can be a hazardous industry and we 
+                            take every precaution to ensure the safety of our employees and anyone who may be impacted by our work.
+                            </li><li>
+                            All of our employees undergo rigorous safety training and are required to follow strict safety protocols at all times. We 
+                            also conduct regular safety inspections and audits to identify and address any potential hazards.
+                            </li><li>
+                            Personal Protective Equipment (PPE) is mandatory on all of our job sites and we provide our workers with the necessary 
+                            equipment to keep them safe. We also have a dedicated safety officer on staff to oversee all safety aspects of the project, 
+                            and to respond to any safety concerns.
+                            </li><li>
+                            We also implement a strict drug-free workplace policy and conduct regular drug tests to ensure that all of our employees 
+                            are able to work safely at all times.
+                            </li><li>
+                            We work closely with our clients and local authorities to ensure that all safety regulations are met and exceeded. We 
+                            believe that by prioritizing safety, we can not only protect our employees, but also ensure the success of the project.
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -94,7 +178,26 @@ const About = (props) => {
                     <div className="aboutUsDescriptorText">
                         <h1>Background</h1>
                         <hr></hr>
-                        Lorem ipsum dolor sit amet, aeque alterum repudiare ius at, at sapientem liberavisse est. Ei illud democritum pro, vel id dictas corrumpit. Id usu idque elitr eligendi, nullam diceret reprehendunt et per, pro amet iuvaret instructior ex.
+                        <ul>
+                            <li>
+                            Our underground construction company has a long history of delivering high-quality and safe underground construction services. 
+                            We have been in business for several decades and have built a reputation for excellence in the industry.
+                            </li><li>
+                            We specialize in a wide range of underground construction services, including tunneling, excavation, and foundation work. Our 
+                            team of experts is highly skilled and experienced in all aspects of underground construction, and are equipped with the latest 
+                            technology and equipment to ensure that every project is completed safely and efficiently.
+                            </li><li>
+                            We have worked on a variety of projects over the years, including transportation projects such as subway systems and highways, 
+                            water and sewage projects, and many fiber and telecom projects. Our services are suitable for a variety of industries and we have experience in 
+                            both public and private sector projects.
+                            </li><li>
+                            We pride ourselves on our commitment to safety, our attention to detail, and our ability to deliver projects on time and within 
+                            budget. We work closely with our clients to understand their specific needs and tailor our services to meet those needs.
+                            </li><li>
+                            We are dedicated to providing high-quality services and to building long-lasting relationships with our clients. Trust us to handle 
+                            all of your underground construction needs.
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div className="aboutUsRightSide">
@@ -118,9 +221,13 @@ const About = (props) => {
                     textAlign: "left"
                 }}>WHO IS PAONIA<hr style={{width: "8em", borderTop: "10px solid white", opacity: "100%"}}></hr></h1>
             </div>
-            <div style={{textAlign: "center"}}>
-                MISSION <br></br>
-                Lorem ipsum dolor sit amet, aeque alterum repudiare ius at, at sapientem liberavisse est. Ei illud democritum pro, vel id dictas corrumpit. Id usu idque elitr eligendi, nullam diceret reprehendunt et per, pro amet iuvaret instructior ex.<br></br><br></br>
+            <div style={{textAlign: "center", paddingLeft: "2em", paddingRight: "2em"}}>
+                <h2><b><u>MISSION</u></b></h2><br></br>
+                <b>
+                    At Paonia, our mission is to be a leading underground construction company, providing safe, reliable, and high-quality services to our clients, 
+                    while maintaining the highest standards of safety and professionalism, and making a positive impact on the communities we serve.
+                </b>
+                <br></br><br></br>
             </div>
             {props.viewport === "Desktop" ? desktopView : mobileView}
         </div>

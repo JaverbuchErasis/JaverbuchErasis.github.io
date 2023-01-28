@@ -20,7 +20,7 @@ function ControlledCarousel() {
                 <Carousel.Caption>
                     <h3>Best Underground Construction Contractor in your Area</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        At Paonia, our mission is to be a leading underground construction company, providing safe, reliable, and high-quality services to our clients, while maintaining the highest standards of safety and professionalism, and making a positive impact on the communities we serve.
                     </p>
                     <Button variant='danger'><Link to='/contact'>Contact Us</Link></Button>
                 </Carousel.Caption>
@@ -33,7 +33,7 @@ function ControlledCarousel() {
                 <Carousel.Caption>
                     <h3>Interested in Joining our Team</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        Join our team and build a career with Paonia! We offer exciting opportunities for skilled construction workers, equipment operators, and more. Apply now and start building your future with us.
                     </p>
                     <Button variant='danger'><Link to='/careers'>View Openings</Link></Button>
                 </Carousel.Caption>
@@ -46,7 +46,7 @@ function ControlledCarousel() {
                 <Carousel.Caption>
                     <h3>Top Safety Focused Culture</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        Safety is a top priority for us at Paonia. We understand that working underground can be hazardous, which is why we take every precaution to ensure the safety of our employees and anyone who may be impacted by our work.
                     </p>
                     <Button variant='danger'><Link to='/about'>Learn More</Link></Button>
                 </Carousel.Caption>
@@ -72,7 +72,7 @@ function NonDesktopControlledCarousel() {
                 <Carousel.Caption>
                     <h3>Best Underground Construction Contractor in your Area</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        At Paonia, our mission is to be a leading underground construction company, providing safe, reliable, and high-quality services to our clients, while maintaining the highest standards of safety and professionalism, and making a positive impact on the communities we serve.
                     </p>
                     <Button variant='danger'><Link to='/contact'>Contact Us</Link></Button>
                 </Carousel.Caption>
@@ -85,7 +85,7 @@ function NonDesktopControlledCarousel() {
                 <Carousel.Caption>
                     <h3>Interested in Joining our Team</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        Join our team and build a career with Paonia! We offer exciting opportunities for skilled construction workers, equipment operators, and more. Apply now and start building your future with us.
                     </p>
                     <Button variant='danger'><Link to='/careers'>View Openings</Link></Button>
                 </Carousel.Caption>
@@ -98,7 +98,7 @@ function NonDesktopControlledCarousel() {
                 <Carousel.Caption>
                     <h3>Top Safety Focused Culture</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        Safety is a top priority for us at Paonia. We understand that working underground can be hazardous, which is why we take every precaution to ensure the safety of our employees and anyone who may be impacted by our work.
                     </p>
                     <Button variant='danger'><Link to='/about'>Learn More</Link></Button>
                 </Carousel.Caption>
