@@ -86,16 +86,16 @@ const About = (props) => {
                     <hr></hr>
                     <ul>
                         <li>
-                        Our underground construction company has a long history of delivering high-quality and safe underground construction services. 
+                        Paonia has a long history of delivering high-quality and safe telecom construction services. 
                         We have been in business for several decades and have built a reputation for excellence in the industry.
                         </li><li>
-                        We specialize in a wide range of underground construction services, including tunneling, excavation, and foundation work. Our 
+                        We specialize in a wide range of underground construction services, including tunneling, excavation, and telecom work. Our 
                         team of experts is highly skilled and experienced in all aspects of underground construction, and are equipped with the latest 
                         technology and equipment to ensure that every project is completed safely and efficiently.
                         </li><li>
-                        We have worked on a variety of projects over the years, including transportation projects such as subway systems and highways, 
-                        water and sewage projects, and many fiber and telecom projects. Our services are suitable for a variety of industries and we have experience in 
-                        both public and private sector projects.
+                        We have a proven track record of success in the telecommunications industry, and we have the knowledge and expertise necessary 
+                        to handle projects of all sizes and complexity. We work closely with our clients to understand their unique needs and to deliver 
+                        solutions that are tailored to their specific requirements.
                         </li><li>
                         We pride ourselves on our commitment to safety, our attention to detail, and our ability to deliver projects on time and within 
                         budget. We work closely with our clients to understand their specific needs and tailor our services to meet those needs.
@@ -187,9 +187,9 @@ const About = (props) => {
                             team of experts is highly skilled and experienced in all aspects of underground construction, and are equipped with the latest 
                             technology and equipment to ensure that every project is completed safely and efficiently.
                             </li><li>
-                            We have worked on a variety of projects over the years, including transportation projects such as subway systems and highways, 
-                            water and sewage projects, and many fiber and telecom projects. Our services are suitable for a variety of industries and we have experience in 
-                            both public and private sector projects.
+                            We have a proven track record of success in the telecommunications industry, and we have the knowledge and expertise necessary 
+                            to handle projects of all sizes and complexity. We work closely with our clients to understand their unique needs and to deliver 
+                            solutions that are tailored to their specific requirements.
                             </li><li>
                             We pride ourselves on our commitment to safety, our attention to detail, and our ability to deliver projects on time and within 
                             budget. We work closely with our clients to understand their specific needs and tailor our services to meet those needs.

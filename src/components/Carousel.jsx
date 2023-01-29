@@ -18,9 +18,9 @@ function ControlledCarousel() {
                     <img className="d-block w-100" src="/carousel1.jpg" alt="First slide" type="image/jpg"/>
                 </picture>
                 <Carousel.Caption>
-                    <h3>Top Fiber Contractor in Colorado</h3>
+                    <h3>Top Telecom Contractor in Colorado</h3>
                     <p>
-                        At Paonia, our mission is to be a leading underground construction company, providing safe, reliable, and high-quality services to our clients, while maintaining the highest standards of safety and professionalism, and making a positive impact on the communities we serve.
+                        At Paonia, our mission is to be a leading telecom construction company, providing safe, reliable, and high-quality services to our clients, while maintaining the highest standards of safety and professionalism, and making a positive impact on the communities we serve.
                     </p>
                     <Button variant='danger'><Link to='/contact'>Contact Us</Link></Button>
                 </Carousel.Caption>
@@ -70,9 +70,9 @@ function NonDesktopControlledCarousel() {
                     <img className="d-block w-100" src="/carousel1.jpg" alt="First slide" type="image/jpg"/>
                 </picture>
                 <Carousel.Caption>
-                    <h3>Top Fiber Contractor in Colorado</h3>
+                    <h3>Top Telecom Contractor in Colorado</h3>
                     <p>
-                        At Paonia, our mission is to be a leading underground construction company, providing safe, reliable, and high-quality services to our clients, while maintaining the highest standards of safety and professionalism, and making a positive impact on the communities we serve.
+                        At Paonia, our mission is to be a leading telecom construction company, providing safe, reliable, and high-quality services to our clients, while maintaining the highest standards of safety and professionalism, and making a positive impact on the communities we serve.
                     </p>
                     <Button variant='danger'><Link to='/contact'>Contact Us</Link></Button>
                 </Carousel.Caption>

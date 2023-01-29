@@ -14,14 +14,14 @@ const UpperBody = (props) => {
     return (
         <div data-aos="fade-in" className={avifSup ? 'titleBodyContainerHQ' : 'titleBodyContainerLQ'}>
             <p className='titleBodySection'>
-                At Paonia, we specialize in building and maintaining underground infrastructure that keeps our cities and communities running smoothly. 
-                As a leading underground construction company, we have extensive experience in constructing and repairing utility lines, tunnels, and underground structures.
+                At Paonia, we specialize in building and maintaining telecom infrastructure that keeps our cities and communities running smoothly. 
+                As a leading telecom construction company, we have extensive experience in constructing and repairing utility lines, tunnels, and underground structures.
                 <br></br><br></br>
-                Our team of skilled construction workers, engineers, and project managers are experts in the field of underground construction and use the latest technology 
+                Our team of skilled construction workers, engineers, and project managers are experts in the field of telecom construction and use the latest technology 
                 and equipment to ensure the highest level of quality and safety on every project.
                 <br></br><br></br>
-                We take pride in the diversity of our projects, ranging from installing new utility lines to building underground parking structures, repairing existing 
-                infrastructure, and constructing tunnels and underground transit systems. We work closely with government agencies and other organizations to ensure that our 
+                We take pride in the diversity of our projects, ranging from installing new utility lines to building underground telecom networks, repairing existing 
+                infrastructure, and constructing tunnels and underground systems. We work closely with government agencies and other organizations to ensure that our 
                 projects comply with all safety and environmental regulations.
                 <br></br><br></br>
                 At Paonia, we believe in investing in our employees and offer specialized training and apprenticeship programs to help them develop the necessary 
