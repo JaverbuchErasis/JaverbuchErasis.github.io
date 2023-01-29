@@ -2,11 +2,12 @@
 Project Page\
 Progressive Web App?\
 Back end application send for career page\
-Routing
+Routing (Currently Hash Routing needs to Return to Standard Routing)\
+Government Association for About Us Page\
+About Us Mobile Viewport Verbaige Formating\
+Career Button Shape for Mobile and Tablet Viewport
 
 ## Identified Bugs
-Carousel Different Heights for Images\
-Carousel Non-Desktop Views Covering Images
 
 ## Testing Points of Interest
 All viewports (Mobile\Tablet\Computer)\

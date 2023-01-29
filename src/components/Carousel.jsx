@@ -18,7 +18,7 @@ function ControlledCarousel() {
                     <img className="d-block w-100" src="/carousel1.jpg" alt="First slide" type="image/jpg"/>
                 </picture>
                 <Carousel.Caption>
-                    <h3>Best Underground Construction Contractor in your Area</h3>
+                    <h3>Top Fiber Contractor in Colorado</h3>
                     <p>
                         At Paonia, our mission is to be a leading underground construction company, providing safe, reliable, and high-quality services to our clients, while maintaining the highest standards of safety and professionalism, and making a positive impact on the communities we serve.
                     </p>
@@ -44,7 +44,7 @@ function ControlledCarousel() {
                     <img className="d-block w-100" src="/carousel3.jpg" alt="Third slide" type="image/jpg"/>
                 </picture>
                 <Carousel.Caption>
-                    <h3>Top Safety Focused Culture</h3>
+                    <h3>Safety Focused Culture</h3>
                     <p>
                         Safety is a top priority for us at Paonia. We understand that working underground can be hazardous, which is why we take every precaution to ensure the safety of our employees and anyone who may be impacted by our work.
                     </p>
@@ -70,7 +70,7 @@ function NonDesktopControlledCarousel() {
                     <img className="d-block w-100" src="/carousel1.jpg" alt="First slide" type="image/jpg"/>
                 </picture>
                 <Carousel.Caption>
-                    <h3>Best Underground Construction Contractor in your Area</h3>
+                    <h3>Top Fiber Contractor in Colorado</h3>
                     <p>
                         At Paonia, our mission is to be a leading underground construction company, providing safe, reliable, and high-quality services to our clients, while maintaining the highest standards of safety and professionalism, and making a positive impact on the communities we serve.
                     </p>
@@ -96,7 +96,7 @@ function NonDesktopControlledCarousel() {
                     <img className="d-block w-100" src="/carousel3.jpg" alt="Third slide" type="image/jpg"/>
                 </picture>
                 <Carousel.Caption>
-                    <h3>Top Safety Focused Culture</h3>
+                    <h3>Safety Focused Culture</h3>
                     <p>
                         Safety is a top priority for us at Paonia. We understand that working underground can be hazardous, which is why we take every precaution to ensure the safety of our employees and anyone who may be impacted by our work.
                     </p>

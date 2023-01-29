@@ -9,7 +9,7 @@ import {LinkContainer} from 'react-router-bootstrap'
 const MainHeader = (props) => {
     return (
         <>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
             <Container style={{marginLeft: props.viewport === "desktop" ? "3em" : "1em"}}>
                 <Navbar.Brand href="/">
                     <img

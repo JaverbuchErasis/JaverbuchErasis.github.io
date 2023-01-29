@@ -1,7 +1,14 @@
+@font-face {
+  font-family: "Regular";   /*Can be any text*/
+  src: local("Monserrat"),
+    url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
 .App {
   text-align: center;
   width: 100%;
   overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-logo {
@@ -153,6 +160,14 @@
   height: 38em;
 }
 
+.nonDesktopCarousel .carousel-item {
+  height: 29em;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
 .carousel-caption {
   font-weight: bolder;
   background-color: rgba(0, 0, 0, 0.5);
@@ -162,9 +177,9 @@
   height: 100%;
   padding: 4em 0em 4em 0em;
   background:
-    linear-gradient(to bottom left,transparent 49.8%,rgba(252, 0, 0, 0.25) 50%) top   /100% 35%,
-    linear-gradient(to top    left,transparent 49.8%,rgba(252, 0, 0, 0.25) 50%) bottom/100% 35%,
-    linear-gradient(rgba(252, 0, 0, 0.25),rgba(252, 0, 0, 0.25)) center/100% 30%;
+    linear-gradient(to bottom left,transparent 49.8%,rgba(30, 0, 255, 0.25) 50%) top   /100% 35%,
+    linear-gradient(to top    left,transparent 49.8%,rgba(30, 0, 255, 0.25) 50%) bottom/100% 35%,
+    linear-gradient(rgba(30, 0, 255, 0.25),rgba(30, 0, 255, 0.25)) center/100% 30%;
   background-repeat:no-repeat;
 }
 
@@ -227,26 +242,41 @@
 .lowerBodyContainerLeftHQ {
   padding: 2em;
   clip-path: polygon(0 0, 100% 0, calc(100% - 3rem) 100%, 0% 100%);
-  background-image: url(./img/homeSafety.avif);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url(./img/homeSafety.avif);
   transition: all .5s;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .lowerBodyContainerLeftLQ {
   padding: 2em;
   clip-path: polygon(0 0, 100% 0, calc(100% - 3rem) 100%, 0% 100%);
-  background-image: url(./img/homeSafety.jpg);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url(./img/homeSafety.jpg);
   transition: all .5s;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .lowerTabletBodyContainerLeftHQ {
   padding: 2em;
-  background-image: url(./img/homeSafety.avif);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url(./img/homeSafety.avif);
   transition: all .5s;
   background-position: center;
   background-size: cover;
@@ -255,7 +285,10 @@
 
 .lowerTabletBodyContainerLeftLQ {
   padding: 2em;
-  background-image: url(./img/homeSafety.jpg);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url(./img/homeSafety.jpg);
   transition: all .5s;
   background-position: center;
   background-size: cover;
@@ -271,13 +304,6 @@
   padding-right: 3em;
   font-weight: bold;
   color: white;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0) 60%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 .lowerBodyContainerLeftTextHead {
@@ -362,11 +388,12 @@
   padding: 5em;
   height: 100%;
   color: white;
-  text-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
   text-align: center;
   vertical-align: middle;
   font-weight: bolder;
   background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) center;
+  margin-left: -1em;
+  margin-right: -1em;
 }
 
 .careerHeaderImageHQ {

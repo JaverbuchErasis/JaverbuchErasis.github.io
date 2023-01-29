@@ -6,21 +6,21 @@ import { MobileUpperBody, MobileMiddleBody, MobileLowerBody } from '../component
 const Home = (props) => {
     const homePage = props.viewport === "Desktop" ? 
         <div>
-            <ControlledCarousel></ControlledCarousel><br></br>
+            <ControlledCarousel></ControlledCarousel>
             <UpperBody></UpperBody>
             <MiddleBody></MiddleBody>
             <LowerBody></LowerBody><br></br>
         </div> 
         : props.viewport === "Tablet" ? 
         <div>
-            <NonDesktopControlledCarousel></NonDesktopControlledCarousel><br></br>
+            <NonDesktopControlledCarousel></NonDesktopControlledCarousel>
             <TabletUpperBody></TabletUpperBody>
             <TabletMiddleBody></TabletMiddleBody>
             <TabletLowerBody></TabletLowerBody><br></br>
         </div> 
         : props.viewport === "Mobile" ? 
         <div>
-            <NonDesktopControlledCarousel></NonDesktopControlledCarousel><br></br>
+            <NonDesktopControlledCarousel></NonDesktopControlledCarousel>
             <MobileUpperBody></MobileUpperBody>
             <MobileMiddleBody></MobileMiddleBody>
             <MobileLowerBody></MobileLowerBody><br></br>

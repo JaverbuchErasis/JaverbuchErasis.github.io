@@ -72,9 +72,7 @@ const MobileLowerBody = (props) => {
                     <div>
                         <div>
                             Safety is a top priority for us at Paonia. We understand that working underground can be hazardous, 
-                            which is why we take every precaution to ensure the safety of our employees and anyone who may be impacted by our work. 
-                            All of our employees undergo rigorous safety training and are required to follow strict safety protocols at all times. 
-                            We also conduct regular safety inspections and audits to identify and address any potential hazards. 
+                            which is why we take every precaution to ensure the safety of our employees and anyone who may be impacted by our work.
                             Let's work together to keep everyone safe on the job site.
                         </div>
                     </div>
